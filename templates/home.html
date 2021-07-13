@@ -1,0 +1,46 @@
+<html>
+  <body>
+    <h1>Doge's Dojo of Healing</h1>
+    <h3>"For doges, by doges"</h3>
+    <p>Our goal is to heal the whole doge. No matter if it's heartworms, parvovirus, or just
+       a mild case of rabies, we'll do our best to not only fix those problems, but to do
+       so while helping your doge reach true enlightenment. That is the Dojo way.
+    </p>
+    <h2>Add to Our Database</h2>
+    <h4>Need to add a new Dogtor, Doge, or Malady? You're in the right place!</h4>
+    <form action="/add" method="Get">
+      <input type="submit" value="Make an Addition">
+    </form>
+    <h2>Delete from Our Database</h2>
+    <h4>Did a Doge leave our care, a Dogtor leave our employment, or did a Malady become totally erradicated off the face of the earth?</h4>
+    <form action="/delete" method="GET">
+      <input type="submit" value="Make a Deletion">
+    </form>
+    <h2>Make An Update</h2>
+    <h4>Did something change? Let us know!</h4>
+    <form action="/update" method="GET">
+      <input type="submit" value="Make an Updation">
+    </form>
+    <h2>Search Database By:</h2>
+    <form action="/search" method="POST">
+      <label for="dogName">Name:</label>
+      <input name="dogName" type="text" placeholder="Name">
+      <input type="submit" value="Search">
+    </form>
+    <form action="/search" method="POST">
+      <label for="breed">Breed:</label>
+      <input name="breed" type="text" placeholder="Breed">
+      <input type="submit" value="Search">
+    </form>
+    <form action="/search" method="POST">
+      <label for="dogtor">Dogtor:</label>
+      <input name="dogtor" type="text" placeholder="Dogtor">
+      <input type="submit" value="Search">
+    </form>
+    <form action="/search" method="POST">
+      <label for="malady">Malady:</label>
+      <input name="malady" type="text" placeholder="Malady">
+      <input type="submit" value="Search">
+    </form>
+  </body>
+</html>

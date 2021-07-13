@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h1>Database Search Results</h1>
+    <table>
+      <tr></tr>
+      {% for fetchedThing in searchResults %}
+      <tr></tr>
+      {% for data in fetchedThing %}
+      <td>{{data}}</td>
+      {% endfor %}
+      {% endfor %}
+    </table>
+    <form action="/" method="GET">
+      <input type="submit" value="Go Back">
+    </form>
+  </body>
+</html>
